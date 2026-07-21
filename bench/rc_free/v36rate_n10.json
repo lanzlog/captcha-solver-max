@@ -1,0 +1,100 @@
+{
+  "tag": "v36rate",
+  "wins": 2,
+  "n": 10,
+  "rate": 0.2,
+  "timeout_s": 240,
+  "attempts": 3,
+  "rows": [
+    {
+      "i": 1,
+      "win": false,
+      "method": null,
+      "error": "free budget exhausted after 1 attempts",
+      "elapsed": 301.0,
+      "wall": 301.4,
+      "token_len": 0
+    },
+    {
+      "i": 2,
+      "win": false,
+      "method": null,
+      "error": "free budget exhausted after 1 attempts",
+      "elapsed": 328.2,
+      "wall": 328.7,
+      "token_len": 0
+    },
+    {
+      "i": 3,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 247.4,
+      "wall": 247.6,
+      "token_len": 0
+    },
+    {
+      "i": 4,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 281.6,
+      "wall": 281.8,
+      "token_len": 0
+    },
+    {
+      "i": 5,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 254.8,
+      "wall": 255.0,
+      "token_len": 0
+    },
+    {
+      "i": 6,
+      "win": true,
+      "method": "image",
+      "error": null,
+      "elapsed": 112.2,
+      "wall": 112.5,
+      "token_len": 2148
+    },
+    {
+      "i": 7,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 273.4,
+      "wall": 273.6,
+      "token_len": 0
+    },
+    {
+      "i": 8,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 178.9,
+      "wall": 179.0,
+      "token_len": 0
+    },
+    {
+      "i": 9,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 102.1,
+      "wall": 102.3,
+      "token_len": 0
+    },
+    {
+      "i": 10,
+      "win": true,
+      "method": "image",
+      "error": null,
+      "elapsed": 177.4,
+      "wall": 177.5,
+      "token_len": 2126
+    }
+  ]
+}

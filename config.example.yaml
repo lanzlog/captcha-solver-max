@@ -1,0 +1,65 @@
+# captcha-solver-max — single config file (optional; env vars always win)
+# Copy to config.yaml next to server.py, or just export the env vars below.
+
+server:
+  host: "0.0.0.0"
+  port: 8877
+  # Optional shared secret for YesCaptcha-compat endpoints (/createTask etc.)
+  # client_key: ""                  # SOLVER_CLIENT_KEY
+
+# Free browser solvers (CloakBrowser). Prefer headful under xvfb for Turnstile.
+browser:
+  headless_turnstile: false   # TURNSTILE_HEADLESS=0
+  headless_recaptcha: false   # RECAPTCHA_HEADLESS=0
+  allow_private: true         # SOLVER_ALLOW_PRIVATE=1 (loopback targets)
+
+# Residential proxy pool — REQUIRED for real-site CF/Turnstile/reCAPTCHA.
+# Format per line: host:port:user:pass  (or scheme://user:pass@host:port)
+proxy:
+  rotate: true                # SOLVER_PROXY_ROTATE=1
+  file: "/home/ubuntu/cf-factory/proxies.txt"   # SOLVER_PROXY_FILE
+  # Sticky sessions: cloudflare solver pins pool proxy by URL host so
+  # cf_clearance re-solves reuse the same exit IP. See docs/STICKY_PROXY.md
+  # Per-solver static override (disables rotation for that solver):
+  # turnstile: "http://user:pass@host:port"   # TURNSTILE_PROXY
+  # cloudflare: "http://user:pass@host:port"  # CLOUDFLARE_PROXY
+  # recaptcha: "http://user:pass@host:port"   # RECAPTCHA_PROXY
+  geoip: false                # TURNSTILE_GEOIP=1 (needs geoip2 + DB; optional)
+
+# Free image OCR cascade: ddddocr → ppllocr → tesseract (multi-preprocess).
+# Slider cascade: ddddocr.slide_match → captcha-recognizer YOLO → Canny matchTemplate.
+ocr:
+  scale: 3                    # OCR_SCALE
+  threshold: 160              # OCR_THRESHOLD
+  conf_min: 60                # OCR_CONF_MIN
+  psm: 7                      # OCR_PSM (7=single line, 8=single word)
+
+# Geetest v4 pure-HTTP (type=geetest). Optional proxy for gcaptcha4.geevisit.com.
+# geetest:
+#   proxy: ""                 # GEETEST_PROXY (or reuse SOLVER_PROXY / per-request proxy)
+
+# Free vision LLM for hCaptcha / reCAPTCHA-v2 image grids.
+# Multi-key comma-sep OK — KeyPool rotates on 401/403/429/unpurchased (900s park).
+# Tiny tiles auto-upscaled to ≥64px for Qwen VL.
+vision:
+  # endpoint: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"
+  # model: "qwen-vl-plus"
+  # api_key: ""               # VISION_API_KEY or DASHSCOPE_API_KEY (comma-sep) or MISTRAL_API_KEY
+  keyfile: "csm/apikey.txt"  # one key per line (MISTRAL_KEYFILE)
+
+# Optional PAID safety net — only fires when free browser solve fails.
+# Leave empty = free-only mode (default). FunCaptcha/Arkose → use paid for now
+# (no solid free MIT engine; see docs/FUNCAPTCHA.md).
+paid:
+  twocaptcha_api_key: ""      # TWOCAPTCHA_API_KEY
+  yescaptcha_api_key: ""      # YESCAPTCHA_API_KEY (comma-separated for multi-key)
+  poll_timeout_s: 120         # PAID_FALLBACK_POLL_S
+
+# Optional GPL hcaptcha-challenger SIDECAR (separate process :8878).
+# MIT repo only talks HTTP — never imports GPL source. Install outside this tree:
+#   ~/captcha-build/hcaptcha-sidecar  (see that README)
+# Requires real GEMINI_API_KEY in the sidecar .env.
+hcaptcha_sidecar:
+  fallback: false             # HCAPTCHA_SIDECAR_FALLBACK=1 after free vision fails
+  url: "http://127.0.0.1:8878"  # HCAPTCHA_SIDECAR_URL
+  timeout_s: 200              # HCAPTCHA_SIDECAR_TIMEOUT

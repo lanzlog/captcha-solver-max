@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "rows": [
+    {
+      "file": "ch_1784356579_3x3_cars.png",
+      "target": "cars",
+      "n": 3,
+      "gt": [
+        4,
+        5
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        4,
+        5
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 3755.1
+    },
+    {
+      "file": "ch_1784356674_3x3_bus.png",
+      "target": "bus",
+      "n": 3,
+      "gt": [
+        3,
+        4,
+        6
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        3,
+        4,
+        6
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 383.2
+    },
+    {
+      "file": "ch_1784356307_3x3_crosswalks.png",
+      "target": "crosswalks",
+      "n": 3,
+      "gt": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "exact": false,
+      "ms": 5.1
+    },
+    {
+      "file": "ch_1784359494_3x3_bicycles.png",
+      "target": "bicycles",
+      "n": 3,
+      "gt": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        0,
+        1,
+        2
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 3778.8
+    },
+    {
+      "file": "ch_1784359364_3x3_bus.png",
+      "target": "bus",
+      "n": 3,
+      "gt": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        1,
+        5,
+        8
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "exact": false,
+      "ms": 372.7
+    },
+    {
+      "file": "ch_1784359651_3x3_crosswalks.png",
+      "target": "crosswalks",
+      "n": 3,
+      "gt": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "exact": false,
+      "ms": 5.0
+    },
+    {
+      "file": "ch_1784359920_3x3_bicycles.png",
+      "target": "bicycles",
+      "n": 3,
+      "gt": [
+        2,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        2,
+        8
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 3753.1
+    },
+    {
+      "file": "ch_1784360791_3x3_bicycles.png",
+      "target": "bicycles",
+      "n": 3,
+      "gt": [
+        3,
+        6,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        3,
+        6,
+        8
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 3694.0
+    },
+    {
+      "file": "ch_1784360927_3x3_bicycles.png",
+      "target": "bicycles",
+      "n": 3,
+      "gt": [
+        0,
+        6,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        0,
+        6,
+        8
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 3714.7
+    },
+    {
+      "file": "ch_1784361085_3x3_bicycles.png",
+      "target": "bicycles",
+      "n": 3,
+      "gt": [
+        2,
+        3
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        2,
+        3,
+        4
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "exact": false,
+      "ms": 3731.3
+    },
+    {
+      "file": "ch_1784358872_4x4_stairs.png",
+      "target": "stairs",
+      "n": 4,
+      "gt": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "source": "manual_vision_gt",
+      "pred": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "exact": false,
+      "ms": 5.1
+    },
+    {
+      "file": "ch_1784361864_4x4_buses.png",
+      "target": "buses",
+      "n": 4,
+      "gt": [
+        4,
+        8
+      ],
+      "source": "manual_vision_gt",
+      "pred": [
+        4,
+        8
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "exact": true,
+      "ms": 400.5
+    }
+  ],
+  "per_target": {
+    "cars": {
+      "samples": 1,
+      "exact_rate": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "avg_ms": 3755.085709039122
+    },
+    "bus": {
+      "samples": 2,
+      "exact_rate": 0.5,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "avg_ms": 377.9391124844551
+    },
+    "crosswalks": {
+      "samples": 2,
+      "exact_rate": 0.0,
+      "precision": 0,
+      "recall": 0.0,
+      "avg_ms": 5.051302490755916
+    },
+    "bicycles": {
+      "samples": 5,
+      "exact_rate": 0.8,
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "avg_ms": 3734.3981922604144
+    },
+    "stairs": {
+      "samples": 1,
+      "exact_rate": 0.0,
+      "precision": 0,
+      "recall": 0.0,
+      "avg_ms": 5.087214056402445
+    },
+    "buses": {
+      "samples": 1,
+      "exact_rate": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "avg_ms": 400.5233009811491
+    }
+  },
+  "overall": {
+    "samples": 12,
+    "exact_rate": 0.5833333333333334,
+    "precision": 0.9583333333333334,
+    "recall": 0.6388888888888888
+  }
+}

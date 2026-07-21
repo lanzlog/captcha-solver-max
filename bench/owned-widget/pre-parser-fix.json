@@ -1,0 +1,14 @@
+{
+  "ts": 1784372794.7590425,
+  "elapsed_s": 9.46,
+  "http_error": null,
+  "solved": true,
+  "token_len": 816,
+  "method": "explicit",
+  "usage": "same_session_only",
+  "portable": false,
+  "siteverify_success": null,
+  "hostname": null,
+  "error_codes": [],
+  "secret_path": "/home/ubuntu/.config/hermes/turnstile/csm-portable-sim.secret"
+}

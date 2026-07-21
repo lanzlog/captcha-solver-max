@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "indexing": "zero_based_row_major",
+  "samples": [
+    {"file":"ch_1784356579_3x3_cars.png","target":"cars","n":3,"gt":[4,5],"source":"manual_vision_gt"},
+    {"file":"ch_1784356674_3x3_bus.png","target":"bus","n":3,"gt":[3,4,6],"source":"manual_vision_gt"},
+    {"file":"ch_1784356307_3x3_crosswalks.png","target":"crosswalks","n":3,"gt":[0,2,5,8],"source":"manual_vision_gt"},
+    {"file":"ch_1784359494_3x3_bicycles.png","target":"bicycles","n":3,"gt":[0,1,2],"source":"manual_vision_gt"},
+    {"file":"ch_1784359364_3x3_bus.png","target":"bus","n":3,"gt":[1,2,5,8],"source":"manual_vision_gt"},
+    {"file":"ch_1784359651_3x3_crosswalks.png","target":"crosswalks","n":3,"gt":[0,2,5,8],"source":"manual_vision_gt"},
+    {"file":"ch_1784359920_3x3_bicycles.png","target":"bicycles","n":3,"gt":[2,8],"source":"manual_vision_gt"},
+    {"file":"ch_1784360791_3x3_bicycles.png","target":"bicycles","n":3,"gt":[3,6,8],"source":"manual_vision_gt"},
+    {"file":"ch_1784360927_3x3_bicycles.png","target":"bicycles","n":3,"gt":[0,6,8],"source":"manual_vision_gt"},
+    {"file":"ch_1784361085_3x3_bicycles.png","target":"bicycles","n":3,"gt":[2,3],"source":"manual_vision_gt"},
+    {"file":"ch_1784358872_4x4_stairs.png","target":"stairs","n":4,"gt":[5,6,9,10],"source":"manual_vision_gt"},
+    {"file":"ch_1784361864_4x4_buses.png","target":"buses","n":4,"gt":[4,8],"source":"manual_vision_gt"}
+  ]
+}

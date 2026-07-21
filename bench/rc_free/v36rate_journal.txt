@@ -1,0 +1,1386 @@
+Jul 20 23:48:58 VM-0-3-ubuntu systemd[3333928]: Started rc-v36rate-n10.service - /usr/bin/bash -lc "cd /home/ubuntu/captcha-build/captcha-solver && (pgrep -a Xvfb || Xvfb :99 -screen 0 1920x1080x24 >/tmp/xvfb99.log 2>&1 &) && sleep 1 && export DISPLAY=:99 && ./venv/bin/python /tmp/rc_free_v36rate_n10.py".
+Jul 20 23:48:58 VM-0-3-ubuntu bash[131984]: 84598 Xvfb :99 -screen 0 1920x1080x24 -nolisten tcp -auth /tmp/xvfb-run.szf8Ps/Xauthority
+Jul 20 23:48:59 VM-0-3-ubuntu bash[131979]: INFO engines.rc.yolo_onnx YOLO onnx ready path=/home/ubuntu/captcha-build/captcha-solver/models/yolov5m.onnx in=640x640
+Jul 20 23:48:59 VM-0-3-ubuntu bash[131979]: yolo {'ready': True, 'path': '/home/ubuntu/captcha-build/captcha-solver/models/yolov5m.onnx', 'size': 42606277, 'conf': 0.1}
+Jul 20 23:48:59 VM-0-3-ubuntu bash[131979]: RC_SPEED 1 dyn 6 tag v36rate
+Jul 20 23:48:59 VM-0-3-ubuntu bash[131979]: moto_defaults UP code-default DOWN code-default COV code-default MAX code-default EXP4 code-default
+Jul 20 23:48:59 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:00 VM-0-3-ubuntu bash[131979]: INFO httpx HTTP Request: GET https://pypi.org/pypi/cloakbrowser/json "HTTP/1.1 200 OK"
+Jul 20 23:49:00 VM-0-3-ubuntu bash[131979]: WARNING cloakbrowser Update available: cloakbrowser 0.4.11 → 0.4.12. Run: pip install --upgrade cloakbrowser
+Jul 20 23:49:00 VM-0-3-ubuntu bash[131979]: INFO httpx HTTP Request: GET https://api.github.com/repos/CloakHQ/cloakbrowser/releases?per_page=10 "HTTP/1.1 200 OK"
+Jul 20 23:49:01 VM-0-3-ubuntu bash[131979]: RUN {'i': 1, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 1.6, 'wall': 1.6, 'token_len': 0}
+Jul 20 23:49:01 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:02 VM-0-3-ubuntu bash[131979]: RUN {'i': 2, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.7, 'wall': 0.7, 'token_len': 0}
+Jul 20 23:49:02 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:02 VM-0-3-ubuntu bash[131979]: RUN {'i': 3, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.7, 'wall': 0.7, 'token_len': 0}
+Jul 20 23:49:02 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:03 VM-0-3-ubuntu bash[131979]: RUN {'i': 4, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}
+Jul 20 23:49:03 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:04 VM-0-3-ubuntu bash[131979]: RUN {'i': 5, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}
+Jul 20 23:49:04 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:04 VM-0-3-ubuntu bash[131979]: RUN {'i': 6, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}
+Jul 20 23:49:04 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:05 VM-0-3-ubuntu bash[131979]: RUN {'i': 7, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}
+Jul 20 23:49:05 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:06 VM-0-3-ubuntu bash[131979]: RUN {'i': 8, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}
+Jul 20 23:49:06 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:06 VM-0-3-ubuntu bash[131979]: RUN {'i': 9, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}
+Jul 20 23:49:06 VM-0-3-ubuntu bash[131979]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:07 VM-0-3-ubuntu bash[131979]: RUN {'i': 10, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.8, 'wall': 0.8, 'token_len': 0}
+Jul 20 23:49:07 VM-0-3-ubuntu bash[131979]: SUMMARY {'tag': 'v36rate', 'wins': 0, 'n': 10, 'rate': 0.0, 'timeout_s': 240, 'attempts': 3, 'rows': [{'i': 1, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 1.6, 'wall': 1.6, 'token_len': 0}, {'i': 2, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.7, 'wall': 0.7, 'token_len': 0}, {'i': 3, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.7, 'wall': 0.7, 'token_len': 0}, {'i': 4, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}, {'i': 5, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}, {'i': 6, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}, {'i': 7, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}, {'i': 8, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}, {'i': 9, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.6, 'wall': 0.6, 'token_len': 0}, {'i': 10, 'win': False, 'method': None, 'error': 'BrowserType.launch: Target page, context or browser has been closed', 'elapsed': 0.8, 'wall': 0.8, 'token_len': 0}]}
+Jul 20 23:49:07 VM-0-3-ubuntu systemd[3333928]: rc-v36rate-n10.service: Consumed 5.974s CPU time, 275.1M memory peak, 0B memory swap peak.
+Jul 20 23:49:35 VM-0-3-ubuntu systemd[3333928]: Started rc-v36rate-n10.service - /usr/bin/xvfb-run -a /home/ubuntu/captcha-build/captcha-solver/venv/bin/python /tmp/rc_free_v36rate_n10.py.
+Jul 20 23:49:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx YOLO onnx ready path=/home/ubuntu/captcha-build/captcha-solver/models/yolov5m.onnx in=640x640
+Jul 20 23:49:36 VM-0-3-ubuntu xvfb-run[132624]: yolo {'ready': True, 'path': '/home/ubuntu/captcha-build/captcha-solver/models/yolov5m.onnx', 'size': 42606277, 'conf': 0.1}
+Jul 20 23:49:36 VM-0-3-ubuntu xvfb-run[132624]: RC_SPEED 1 dyn 6 tag v36rate
+Jul 20 23:49:36 VM-0-3-ubuntu xvfb-run[132624]: moto_defaults UP code-default DOWN code-default COV code-default MAX code-default EXP4 code-default
+Jul 20 23:49:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:49:37 VM-0-3-ubuntu xvfb-run[132624]: INFO httpx HTTP Request: GET https://pypi.org/pypi/cloakbrowser/json "HTTP/1.1 200 OK"
+Jul 20 23:49:37 VM-0-3-ubuntu xvfb-run[132624]: WARNING cloakbrowser Update available: cloakbrowser 0.4.11 → 0.4.12. Run: pip install --upgrade cloakbrowser
+Jul 20 23:49:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 20 23:49:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 20 23:49:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bicycles' (raw='bicycles') grid=3x3 dynamic=True desc='Select all images with\nbicycles\nClick verify once there are none left'
+Jul 20 23:49:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 20 23:49:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[1, 7, 8] dets=5
+Jul 20 23:49:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[1, 4, 7]
+Jul 20 23:49:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[1, 7, 8] per=[1, 4, 7]
+Jul 20 23:49:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[1, 7, 8] per=[1, 4, 7] -> [1, 7, 8]
+Jul 20 23:49:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [1, 7, 8]
+Jul 20 23:49:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[1, 7, 8]
+Jul 20 23:49:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'bicycles' -> [1, 7, 8]
+Jul 20 23:49:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 20 23:50:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:50:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[4]
+Jul 20 23:50:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[4] -> [4]
+Jul 20 23:50:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [4]
+Jul 20 23:50:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[4]
+Jul 20 23:50:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'bicycles' -> [4]
+Jul 20 23:50:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 20 23:50:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[4, 8] dets=3
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[4, 8]
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[4, 8] per=[4, 8]
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[4, 8] per=[4, 8] -> [4, 8]
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [4, 8]
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[4, 8]
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 2/9 tiles match 'bicycles' -> [4, 8]
+Jul 20 23:50:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 20 23:50:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[4] dets=1
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[4] per=[]
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[4] per=[] -> [4]
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [4]
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[4]
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 1/9 tiles match 'bicycles' -> [4]
+Jul 20 23:50:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 20 23:50:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[4] dets=1
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[4]
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[4] per=[4]
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[4] per=[4] -> [4]
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [4]
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[4]
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 5/6: 1/9 tiles match 'bicycles' -> [4]
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [4] x2 — defer to src-change
+Jul 20 23:51:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 20 23:51:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:51:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:51:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:51:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:51:35 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:51:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:51:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:51:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:51:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:51:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:51:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:51:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 20 23:51:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 20 23:51:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:52:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:52:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:52:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 20 23:52:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 6/6: 0/9 tiles match 'bicycles' -> []
+Jul 20 23:52:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 20 23:52:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 20 23:52:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 20 23:52:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 20 23:52:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 20 23:52:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bicycles' (raw='bicycles') grid=3x3 dynamic=True desc='Select all images with\nbicycles\nClick verify once there are none left'
+Jul 20 23:52:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 20 23:52:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:52:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:52:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:52:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:52:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:53:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:53:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:53:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:53:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:53:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:53:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:53:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 20 23:53:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 20 23:53:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:53:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:53:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:53:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 20 23:53:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'bicycles' -> []
+Jul 20 23:53:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:53:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:53:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:53:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:53:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:54:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:54:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:54:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:54:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:54:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:54:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:54:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 20 23:54:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 20 23:54:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:54:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'bicycles' -> []
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'bicycles'
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='bicycles' — fail grid without verify
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=False
+Jul 20 23:54:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 20 23:54:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget exhausted after 301.0s — yield to paid
+Jul 20 23:54:38 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 1, 'win': False, 'method': None, 'error': 'free budget exhausted after 1 attempts', 'elapsed': 301.0, 'wall': 301.4, 'token_len': 0}
+Jul 20 23:54:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 20 23:54:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 20 23:54:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 20 23:54:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bicycles' (raw='bicycles') grid=3x3 dynamic=True desc='Select all images with\nbicycles\nClick verify once there are none left'
+Jul 20 23:54:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 20 23:54:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[1, 3, 6] dets=15
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[1, 3, 6]
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[1, 3, 6] per=[1, 3, 6]
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[1, 3, 6] per=[1, 3, 6] -> [1, 3, 6]
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [1, 3, 6]
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[1, 3, 6]
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'bicycles' -> [1, 3, 6]
+Jul 20 23:54:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 20 23:55:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo bike←moto n=1
+Jul 20 23:55:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[1, 3] dets=2
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[1, 3] per=[]
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[1, 3] per=[] -> [1, 3]
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bicycles' n=3 -> [1, 3]
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[1, 3]
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 2/9 tiles match 'bicycles' -> [1, 3]
+Jul 20 23:55:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 20 23:55:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:55:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:55:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:55:35 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:55:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:55:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:55:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='7' -> [6]
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=dual-union-near+yolo-empty-keep-tiny-vl wholes=[[6]] tiles=[] yolo=[] -> [6]
+Jul 20 23:55:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 1/9 tiles match 'bicycles' -> [6]
+Jul 20 23:55:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 20 23:56:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:56:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:56:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:56:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo bike←moto n=1
+Jul 20 23:56:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[6] dets=1
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v44 bicycle center-primary center=[6] per=[]
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[6] per=[] -> [6]
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[6] target='bicycles'
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bicycles' hits=[6]
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 1/9 tiles match 'bicycles' -> [6]
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [6] x2 — defer to src-change
+Jul 20 23:56:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 20 23:56:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:56:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:56:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:56:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:57:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:57:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:57:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:57:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:57:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:57:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:57:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:57:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 20 23:57:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 20 23:57:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:57:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:57:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:57:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 20 23:57:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 5/6: 0/9 tiles match 'bicycles' -> []
+Jul 20 23:57:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 20 23:57:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 20 23:57:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 20 23:57:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 20 23:57:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 20 23:57:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bicycles' (raw='bicycles') grid=3x3 dynamic=True desc='Select all images with\nbicycles\nClick verify once there are none left'
+Jul 20 23:57:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 20 23:57:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:58:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:58:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:58:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:58:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:58:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:58:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:58:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:58:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:58:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:58:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:58:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 20 23:58:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 20 23:58:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:58:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:58:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:58:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 20 23:58:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'bicycles' -> []
+Jul 20 23:59:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:59:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:59:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:59:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:59:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:59:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:59:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 20 23:59:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:59:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 20 23:59:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 20 23:59:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 20 23:59:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 20 23:59:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 20 23:59:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 20 23:59:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'bicycles' -> []
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'bicycles'
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='bicycles' — fail grid without verify
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=False
+Jul 20 23:59:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:00:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget exhausted after 328.2s — yield to paid
+Jul 21 00:00:07 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 2, 'win': False, 'method': None, 'error': 'free budget exhausted after 1 attempts', 'elapsed': 328.2, 'wall': 328.7, 'token_len': 0}
+Jul 21 00:00:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:00:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:00:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:00:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='fire hydrant' (raw='a fire hydrant') grid=3x3 dynamic=True desc='Select all images with\na fire hydrant\nClick verify once there are none left.'
+Jul 21 00:00:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:00:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=2 hits=[0, 6] expand=0.10
+Jul 21 00:00:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[6]
+Jul 21 00:00:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[0, 6] per=[6] -> [0, 6]
+Jul 21 00:00:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [0, 6]
+Jul 21 00:00:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[0, 6]
+Jul 21 00:00:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 2/9 tiles match 'fire hydrant' -> [0, 6]
+Jul 21 00:00:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:00:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:00:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:00:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:00:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:00:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:00:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:00:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='fire hydrant'
+Jul 21 00:00:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:00:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='8' -> [7]
+Jul 21 00:00:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='8' -> [7]
+Jul 21 00:01:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=dual-and-tiles+yolo-empty-keep-tiny-vl wholes=[[7], [7]] tiles=[7] yolo=[] -> [7]
+Jul 21 00:01:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'fire hydrant' -> [7]
+Jul 21 00:01:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:01:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=1 hits=[7] expand=0.10
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[7] per=[] -> [7]
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [7]
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[7]
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 1/9 tiles match 'fire hydrant' -> [7]
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [7] x2 — defer to src-change
+Jul 21 00:01:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:01:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:01:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:01:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:01:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:01:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:01:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:01:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='fire hydrant'
+Jul 21 00:01:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:01:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:01:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:01:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:01:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:01:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:01:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:01:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'fire hydrant' →[]
+Jul 21 00:01:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 0/9 tiles match 'fire hydrant' -> []
+Jul 21 00:01:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:02:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:02:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:02:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:02:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:02:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:02:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bicycles' (raw='bicycles') grid=4x4 dynamic=False desc='Select all squares with\nbicycles\nIf there are none, click skip'
+Jul 21 00:02:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:02:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bicycles' classes=['bicycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:02:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='bicycles' -> []
+Jul 21 00:02:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bicycles' classes=['bicycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:02:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='bicycles' -> []
+Jul 21 00:02:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 21 00:02:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=4 hits=[]
+Jul 21 00:02:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:02:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:02:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:02:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'bicycles' -> []
+Jul 21 00:02:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'bicycles'
+Jul 21 00:02:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='bicycles'
+Jul 21 00:02:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:02:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:02:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 21 00:02:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:02:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:02:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:02:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:02:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:02:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:02:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='motorcycles'
+Jul 21 00:02:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=4 hits=[]
+Jul 21 00:02:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:02:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:02:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:02:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'motorcycles' -> []
+Jul 21 00:02:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'motorcycles'
+Jul 21 00:02:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='motorcycles'
+Jul 21 00:02:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=True
+Jul 21 00:02:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=2 ok_streak=2 checked=False next_grid=True
+Jul 21 00:02:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 3/10
+Jul 21 00:02:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:02:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:03:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo moto-4x4 asym [4, 5, 6, 8, 9, 10] -> [4, 5, 8, 9]
+Jul 21 00:03:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=1 hits=[4, 5, 8, 9] expand=0.06
+Jul 21 00:03:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> [4, 5, 8, 9]
+Jul 21 00:03:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'motorcycles' n=4 -> [4, 5, 8, 9]
+Jul 21 00:03:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='motorcycles' hits=[4, 5, 8, 9]
+Jul 21 00:03:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 4/16 tiles match 'motorcycles' -> [4, 5, 8, 9]
+Jul 21 00:03:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 4/4 positives this round (tiles=16)
+Jul 21 00:03:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:03:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 3 ok=True
+Jul 21 00:03:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=3 ok_streak=3 checked=False next_grid=True
+Jul 21 00:03:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 4/10
+Jul 21 00:03:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='traffic lights' (raw='traffic lights') grid=4x4 dynamic=False desc='Select all squares with\ntraffic lights\nIf there are none, click skip'
+Jul 21 00:03:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:03:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo tl-4x4 trim [5, 6, 9, 10] -> [5, 6, 9, 10]
+Jul 21 00:03:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='traffic lights' classes=['traffic light'] dets=2 hits=[5, 6, 9, 10] expand=0.02
+Jul 21 00:03:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='traffic lights' -> [5, 6, 9, 10]
+Jul 21 00:03:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'traffic lights' n=4 -> [5, 6, 9, 10]
+Jul 21 00:03:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='traffic lights' hits=[5, 6, 9, 10]
+Jul 21 00:03:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 4/16 tiles match 'traffic lights' -> [5, 6, 9, 10]
+Jul 21 00:03:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 4/4 positives this round (tiles=16)
+Jul 21 00:03:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:03:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 4 ok=False
+Jul 21 00:03:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:03:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:03:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:03:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:03:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:03:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:03:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:03:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:03:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:03:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='motorcycles'
+Jul 21 00:03:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=4 hits=[]
+Jul 21 00:03:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:03:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:03:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:03:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'motorcycles' -> []
+Jul 21 00:03:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'motorcycles'
+Jul 21 00:03:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='motorcycles'
+Jul 21 00:03:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:03:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:03:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 21 00:03:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:03:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:03:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:03:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:03:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:03:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:03:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='motorcycles'
+Jul 21 00:04:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=4 hits=[]
+Jul 21 00:04:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:04:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:04:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:04:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'motorcycles' -> []
+Jul 21 00:04:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'motorcycles'
+Jul 21 00:04:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='motorcycles'
+Jul 21 00:04:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=True
+Jul 21 00:04:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=2 ok_streak=2 checked=False next_grid=True
+Jul 21 00:04:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget mid image-chain
+Jul 21 00:04:14 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 3, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 247.4, 'wall': 247.6, 'token_len': 0}
+Jul 21 00:04:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:04:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:04:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:04:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='fire hydrant' (raw='a fire hydrant') grid=3x3 dynamic=True desc='Select all images with\na fire hydrant\nClick verify once there are none left.'
+Jul 21 00:04:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:04:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=3 hits=[0, 4, 5] expand=0.10
+Jul 21 00:04:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:04:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[0, 4, 5] per=[] -> [0, 4, 5]
+Jul 21 00:04:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [0, 4, 5]
+Jul 21 00:04:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[0, 4, 5]
+Jul 21 00:04:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'fire hydrant' -> [0, 4, 5]
+Jul 21 00:04:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 21 00:04:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=1 hits=[0] expand=0.10
+Jul 21 00:04:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:04:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[0] per=[] -> [0]
+Jul 21 00:04:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [0]
+Jul 21 00:04:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[0]
+Jul 21 00:04:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'fire hydrant' -> [0]
+Jul 21 00:04:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:04:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=1 hits=[5] expand=0.10
+Jul 21 00:05:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[5]
+Jul 21 00:05:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[5] per=[5] -> [5]
+Jul 21 00:05:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [5]
+Jul 21 00:05:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[5]
+Jul 21 00:05:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 1/9 tiles match 'fire hydrant' -> [5]
+Jul 21 00:05:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:05:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:05:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:05:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:05:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:05:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:05:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:05:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='fire hydrant'
+Jul 21 00:05:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:05:35 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:05:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:05:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:05:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:05:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:05:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:05:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'fire hydrant' →[]
+Jul 21 00:05:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 0/9 tiles match 'fire hydrant' -> []
+Jul 21 00:05:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:05:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:05:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:05:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:05:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:06:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:06:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='cars' (raw='cars') grid=3x3 dynamic=True desc='Select all images with\ncars\nClick verify once there are none left'
+Jul 21 00:06:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:06:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:06:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:06:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:06:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:06:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:06:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:06:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:06:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:06:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:06:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:06:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:06:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:06:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:06:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:06:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:06:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:06:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:06:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:06:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:06:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:06:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:06:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'cars' →[]
+Jul 21 00:06:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'cars' -> []
+Jul 21 00:06:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:06:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:06:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:06:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:06:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:06:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:06:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:07:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:07:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:07:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:07:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:07:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:07:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:07:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:07:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:07:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:07:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'cars' →[]
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'cars' -> []
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'cars'
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='cars' — fail grid without verify
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:07:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:07:28 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:07:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:07:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='cars' (raw='cars') grid=3x3 dynamic=True desc='Select all images with\ncars\nClick verify once there are none left'
+Jul 21 00:07:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:07:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[3, 8] dets=5
+Jul 21 00:07:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[3, 8]
+Jul 21 00:07:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[3, 8] per=[3, 8] -> [3, 8]
+Jul 21 00:07:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [3, 8]
+Jul 21 00:07:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[3, 8]
+Jul 21 00:07:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 2/9 tiles match 'cars' -> [3, 8]
+Jul 21 00:07:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:07:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[8] dets=4
+Jul 21 00:07:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:07:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[8] per=[] -> [8]
+Jul 21 00:07:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [8]
+Jul 21 00:07:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[8]
+Jul 21 00:07:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'cars' -> [8]
+Jul 21 00:07:50 VM-0-3-ubuntu xvfb-run[132624]: WARNING engines.rc.vision tile 8 pw-click: ElementHandle.click: Element is outside of the viewport
+Jul 21 00:07:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:07:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:08:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:08:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:08:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:08:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:08:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:08:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:08:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:08:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:08:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:08:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:08:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:08:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:08:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:08:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:08:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:08:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:08:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:08:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:08:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:08:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:08:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'cars' →[]
+Jul 21 00:08:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 0/9 tiles match 'cars' -> []
+Jul 21 00:08:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:08:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:08:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:08:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:08:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget mid image-chain
+Jul 21 00:08:56 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 4, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 281.6, 'wall': 281.8, 'token_len': 0}
+Jul 21 00:08:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:09:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:09:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:09:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='traffic lights' (raw='traffic lights') grid=4x4 dynamic=False desc='Select all squares with\ntraffic lights\nIf there are none, click skip'
+Jul 21 00:09:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:09:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo tl-4x4 trim [4, 8, 12] -> [8, 12]
+Jul 21 00:09:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='traffic lights' classes=['traffic light'] dets=1 hits=[8, 12] expand=0.02
+Jul 21 00:09:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='traffic lights' -> [8, 12]
+Jul 21 00:09:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'traffic lights' n=4 -> [8, 12]
+Jul 21 00:09:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='traffic lights' hits=[8, 12]
+Jul 21 00:09:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 2/16 tiles match 'traffic lights' -> [8, 12]
+Jul 21 00:09:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=16)
+Jul 21 00:09:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:09:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:09:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:09:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 21 00:09:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=4x4 dynamic=False desc='Select all squares with\ncrosswalks\nIf there are none, click skip'
+Jul 21 00:09:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:09:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=4 thr=0.220 hits=[] scores=[0.173, 0.0, 0.0, 0.195, 0.197, 0.0, 0.229, 0.0, 0.207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:09:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:09:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='9,10,11,12,13,14,15,16' -> [8, 9, 10, 11, 12, 13, 14, 15]
+Jul 21 00:09:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[8, 9, 10, 11, 12, 13, 14, 15] cv=[])
+Jul 21 00:09:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'crosswalks' -> []
+Jul 21 00:09:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'crosswalks'
+Jul 21 00:09:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='crosswalks'
+Jul 21 00:09:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=True
+Jul 21 00:09:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=2 ok_streak=2 checked=False next_grid=True
+Jul 21 00:09:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 3/10
+Jul 21 00:09:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:09:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:09:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo moto-4x4 asym [1, 2, 3, 4, 5, 6, 9, 10] -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:09:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=2 hits=[1, 2, 3, 5, 6, 9] expand=0.06
+Jul 21 00:09:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:09:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'motorcycles' n=4 -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:09:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='motorcycles' hits=[1, 2, 3, 5, 6, 9]
+Jul 21 00:09:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 6/16 tiles match 'motorcycles' -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:09:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 6/6 positives this round (tiles=16)
+Jul 21 00:09:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:09:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 3 ok=True
+Jul 21 00:09:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=3 ok_streak=3 checked=False next_grid=True
+Jul 21 00:09:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 4/10
+Jul 21 00:09:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='stairs' (raw='stairs') grid=4x4 dynamic=False desc='Select all squares with\nstairs\nIf there are none, click skip'
+Jul 21 00:09:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:09:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='13,14' -> [12, 13]
+Jul 21 00:09:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='13,14' -> [12, 13]
+Jul 21 00:09:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=dual-and-tiles wholes=[[12, 13], [12, 13]] tiles=[12, 13] yolo=None -> [12, 13]
+Jul 21 00:09:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 2/16 tiles match 'stairs' -> [12, 13]
+Jul 21 00:09:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=16)
+Jul 21 00:09:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:09:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 4 ok=True
+Jul 21 00:09:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=4 ok_streak=4 checked=False next_grid=True
+Jul 21 00:09:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 5/10
+Jul 21 00:09:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='fire hydrants' (raw='fire hydrants') grid=4x4 dynamic=False desc='Select all squares with\nfire hydrants\nIf there are none, click skip'
+Jul 21 00:09:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:09:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo hydrant-4x4 trim [1, 2, 3, 5, 6, 7, 9, 10, 11] -> [2, 3, 5, 6, 7, 9, 10, 11]
+Jul 21 00:09:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrants' classes=['fire hydrant'] dets=2 hits=[2, 3, 5, 6, 7, 9, 10, 11] expand=0.02
+Jul 21 00:09:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='fire hydrants' -> [2, 3, 5, 6, 7, 9, 10, 11]
+Jul 21 00:09:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrants' n=4 -> [2, 3, 5, 6, 7, 9, 10, 11]
+Jul 21 00:09:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrants' hits=[2, 3, 5, 6, 7, 9, 10, 11]
+Jul 21 00:09:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 8/16 tiles match 'fire hydrants' -> [2, 3, 5, 6, 7, 9, 10, 11]
+Jul 21 00:09:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 8/8 positives this round (tiles=16)
+Jul 21 00:09:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:09:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 5 ok=False
+Jul 21 00:09:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:09:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:09:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:09:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='buses' (raw='buses') grid=4x4 dynamic=False desc='Select all squares with\nbuses\nIf there are none, click skip'
+Jul 21 00:09:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:09:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='buses' classes=['bus'] dets=0 hits=[] expand=0.10
+Jul 21 00:09:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='buses' -> []
+Jul 21 00:09:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='buses' classes=['bus'] dets=0 hits=[] expand=0.10
+Jul 21 00:09:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='buses' -> []
+Jul 21 00:09:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='buses'
+Jul 21 00:10:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='buses' n=4 hits=[]
+Jul 21 00:10:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:10:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:10:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:10:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'buses' -> []
+Jul 21 00:10:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'buses'
+Jul 21 00:10:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='buses'
+Jul 21 00:10:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:10:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:10:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 21 00:10:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:10:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:10:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:10:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:10:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=0 hits=[] expand=0.06
+Jul 21 00:10:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> []
+Jul 21 00:10:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='motorcycles'
+Jul 21 00:10:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=4 hits=[]
+Jul 21 00:10:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:10:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:10:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:10:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'motorcycles' -> []
+Jul 21 00:10:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'motorcycles'
+Jul 21 00:10:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='motorcycles'
+Jul 21 00:10:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=True
+Jul 21 00:10:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=2 ok_streak=2 checked=False next_grid=True
+Jul 21 00:10:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 3/10
+Jul 21 00:10:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='traffic lights' (raw='traffic lights') grid=4x4 dynamic=False desc='Select all squares with\ntraffic lights\nIf there are none, click skip'
+Jul 21 00:10:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:10:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo tl-4x4 trim [5, 8] -> [5, 8]
+Jul 21 00:10:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='traffic lights' classes=['traffic light'] dets=4 hits=[5, 8] expand=0.02
+Jul 21 00:10:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='traffic lights' -> [5, 8]
+Jul 21 00:10:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'traffic lights' n=4 -> [5, 8]
+Jul 21 00:10:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='traffic lights' hits=[5, 8]
+Jul 21 00:10:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 2/16 tiles match 'traffic lights' -> [5, 8]
+Jul 21 00:10:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=16)
+Jul 21 00:10:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:10:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 3 ok=True
+Jul 21 00:10:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=3 ok_streak=3 checked=False next_grid=True
+Jul 21 00:10:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 4/10
+Jul 21 00:10:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:10:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:10:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo moto-4x4 asym [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] -> [5, 6, 9, 10, 13, 14]
+Jul 21 00:10:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=1 hits=[5, 6, 9, 10, 13, 14] expand=0.06
+Jul 21 00:10:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> [5, 6, 9, 10, 13, 14]
+Jul 21 00:10:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'motorcycles' n=4 -> [5, 6, 9, 10, 13, 14]
+Jul 21 00:10:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='motorcycles' hits=[5, 6, 9, 10, 13, 14]
+Jul 21 00:10:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 6/16 tiles match 'motorcycles' -> [5, 6, 9, 10, 13, 14]
+Jul 21 00:10:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 6/6 positives this round (tiles=16)
+Jul 21 00:10:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:10:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 4 ok=False
+Jul 21 00:10:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:11:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:11:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:11:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bicycles' (raw='bicycles') grid=3x3 dynamic=True desc='Select all images with\nbicycles\nClick verify once there are none left'
+Jul 21 00:11:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:11:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 21 00:11:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:11:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 21 00:11:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 21 00:11:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:11:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 21 00:11:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 21 00:11:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:11:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 21 00:11:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 21 00:11:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 21 00:11:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:11:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:11:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 21 00:11:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:12:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 21 00:12:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 21 00:12:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'bicycles' -> []
+Jul 21 00:12:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 21 00:12:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:12:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 21 00:12:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 21 00:12:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:12:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 21 00:12:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bicycles'
+Jul 21 00:12:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:12:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bicycles' bike=True
+Jul 21 00:12:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bicycles'
+Jul 21 00:12:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty hard-vehicle → FULL VL target='bicycles'
+Jul 21 00:12:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:12:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:12:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bicycles' n=3 hits=[] dets=0
+Jul 21 00:12:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bicycles' n=3 hits=[]
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='bicycles' center=[] per=[] -> []
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bicycles' →[]
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'bicycles' -> []
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'bicycles'
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='bicycles' — fail grid without verify
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:13:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:13:11 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 5, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 254.8, 'wall': 255.0, 'token_len': 0}
+Jul 21 00:13:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:13:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:13:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:13:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='traffic lights' (raw='traffic lights') grid=4x4 dynamic=False desc='Select all squares with\ntraffic lights\nIf there are none, click skip'
+Jul 21 00:13:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:13:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo tl-4x4 trim [4, 8, 12] -> [8, 12]
+Jul 21 00:13:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='traffic lights' classes=['traffic light'] dets=1 hits=[8, 12] expand=0.02
+Jul 21 00:13:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='traffic lights' -> [8, 12]
+Jul 21 00:13:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'traffic lights' n=4 -> [8, 12]
+Jul 21 00:13:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='traffic lights' hits=[8, 12]
+Jul 21 00:13:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 2/16 tiles match 'traffic lights' -> [8, 12]
+Jul 21 00:13:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=16)
+Jul 21 00:13:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:13:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:13:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:13:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 21 00:13:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=4x4 dynamic=False desc='Select all squares with\ncrosswalks\nIf there are none, click skip'
+Jul 21 00:13:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:13:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=4 thr=0.220 hits=[] scores=[0.173, 0.182, 0.199, 0.193, 0.0, 0.0, 0.226, 0.0, 0.207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:13:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:13:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='9,10,11,12,13,14,15,16' -> [8, 9, 10, 11, 12, 13, 14, 15]
+Jul 21 00:13:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[8, 9, 10, 11, 12, 13, 14, 15] cv=[])
+Jul 21 00:13:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/16 tiles match 'crosswalks' -> []
+Jul 21 00:13:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'crosswalks'
+Jul 21 00:13:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision pressed skip (skip-text) for empty match target='crosswalks'
+Jul 21 00:13:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=True
+Jul 21 00:13:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=2 ok_streak=2 checked=False next_grid=True
+Jul 21 00:13:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 3/10
+Jul 21 00:13:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=4x4 dynamic=False desc='Select all squares with\nmotorcycles\nIf there are none, click skip'
+Jul 21 00:13:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:13:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo moto-4x4 asym [1, 2, 3, 4, 5, 6, 9, 10] -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:13:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='motorcycles' classes=['motorcycle'] dets=2 hits=[1, 2, 3, 5, 6, 9] expand=0.06
+Jul 21 00:13:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='motorcycles' -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:13:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'motorcycles' n=4 -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:13:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='motorcycles' hits=[1, 2, 3, 5, 6, 9]
+Jul 21 00:13:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 6/16 tiles match 'motorcycles' -> [1, 2, 3, 5, 6, 9]
+Jul 21 00:13:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 6/6 positives this round (tiles=16)
+Jul 21 00:13:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:13:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 3 ok=True
+Jul 21 00:13:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=3 ok_streak=3 checked=False next_grid=True
+Jul 21 00:13:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 4/10
+Jul 21 00:13:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='stairs' (raw='stairs') grid=4x4 dynamic=False desc='Select all squares with\nstairs\nIf there are none, click skip'
+Jul 21 00:13:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:13:38 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='13,14' -> [12, 13]
+Jul 21 00:13:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='13,14' -> [12, 13]
+Jul 21 00:13:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=dual-and-tiles wholes=[[12, 13], [12, 13]] tiles=[12, 13] yolo=None -> [12, 13]
+Jul 21 00:13:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 2/16 tiles match 'stairs' -> [12, 13]
+Jul 21 00:13:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=16)
+Jul 21 00:13:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:13:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 4 ok=True
+Jul 21 00:13:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=4 ok_streak=4 checked=False next_grid=True
+Jul 21 00:13:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 5/10
+Jul 21 00:13:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='fire hydrants' (raw='fire hydrants') grid=4x4 dynamic=False desc='Select all squares with\nfire hydrants\nIf there are none, click skip'
+Jul 21 00:13:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo hydrant-4x4 trim [1, 2, 5, 6] -> [6]
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrants' classes=['fire hydrant'] dets=1 hits=[6] expand=0.02
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 4x4 whole-only target='fire hydrants' -> [6]
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrants' n=4 -> [6]
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrants' hits=[6]
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 1/16 tiles match 'fire hydrants' -> [6]
+Jul 21 00:13:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=16)
+Jul 21 00:13:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:13:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 5 ok=False
+Jul 21 00:13:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:13:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:14:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:14:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=3x3 dynamic=False desc='Select all images with\nmotorcycles'
+Jul 21 00:14:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:14:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='motorcycles' n=3 hits=[] dets=0
+Jul 21 00:14:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=3 hits=[]
+Jul 21 00:14:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='motorcycles' center=[] per=[] -> []
+Jul 21 00:14:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='motorcycles' n=3 hits=[] dets=0
+Jul 21 00:14:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=3 hits=[]
+Jul 21 00:14:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='motorcycles' center=[] per=[] -> []
+Jul 21 00:14:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='motorcycles'
+Jul 21 00:14:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=3 hits=[]
+Jul 21 00:14:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='motorcycles' bike=False
+Jul 21 00:14:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='motorcycles'
+Jul 21 00:14:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:14:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:14:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='motorcycles' n=3 hits=[] dets=0
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=3 hits=[]
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='motorcycles' center=[] per=[] -> []
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'motorcycles' →[]
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 0/9 tiles match 'motorcycles' -> []
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'motorcycles'
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='motorcycles' — fail grid without verify
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:14:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:14:47 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:14:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:14:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='motorcycles' (raw='motorcycles') grid=3x3 dynamic=False desc='Select all images with\nmotorcycles'
+Jul 21 00:14:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:14:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='motorcycles' n=3 hits=[0, 4, 7] dets=4
+Jul 21 00:14:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='motorcycles' n=3 hits=[0, 7, 8]
+Jul 21 00:14:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='motorcycles' center=[0, 4, 7] per=[0, 7, 8] -> [0, 4, 7, 8]
+Jul 21 00:14:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'motorcycles' n=3 -> [0, 4, 7, 8]
+Jul 21 00:14:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='motorcycles' hits=[0, 4, 7, 8]
+Jul 21 00:14:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/1: 4/9 tiles match 'motorcycles' -> [0, 4, 7, 8]
+Jul 21 00:14:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 4/4 positives this round (tiles=9)
+Jul 21 00:15:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:15:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:15:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 token harvested sink=dom:#g-recaptcha-response len=2148 poll=1/1
+Jul 21 00:15:04 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 6, 'win': True, 'method': 'image', 'error': None, 'elapsed': 112.2, 'wall': 112.5, 'token_len': 2148}
+Jul 21 00:15:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:15:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:15:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:15:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='fire hydrant' (raw='a fire hydrant') grid=3x3 dynamic=True desc='Select all images with\na fire hydrant\nClick verify once there are none left.'
+Jul 21 00:15:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:15:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=3 hits=[2, 6, 8] expand=0.10
+Jul 21 00:15:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[2, 6, 7]
+Jul 21 00:15:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[2, 6, 8] per=[2, 6, 7] -> [2, 6, 7, 8]
+Jul 21 00:15:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [2, 6, 7, 8]
+Jul 21 00:15:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[2, 6, 7, 8]
+Jul 21 00:15:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 4/9 tiles match 'fire hydrant' -> [2, 6, 7, 8]
+Jul 21 00:15:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 4/4 positives this round (tiles=9)
+Jul 21 00:15:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:15:35 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:15:35 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:15:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=1 hits=[7] expand=0.10
+Jul 21 00:15:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[7]
+Jul 21 00:15:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[7] per=[7] -> [7]
+Jul 21 00:15:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[7] target='fire hydrant'
+Jul 21 00:15:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[7]
+Jul 21 00:15:45 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'fire hydrant' -> [7]
+Jul 21 00:15:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:15:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:16:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:16:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:16:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:16:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:16:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:16:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='fire hydrant'
+Jul 21 00:16:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:16:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:16:19 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:16:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[], []] tiles=[] yolo=[] -> []
+Jul 21 00:16:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:16:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:16:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:16:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'fire hydrant' →[]
+Jul 21 00:16:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 0/9 tiles match 'fire hydrant' -> []
+Jul 21 00:16:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:16:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:16:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:16:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:16:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:16:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:16:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bus' (raw='bus') grid=3x3 dynamic=True desc='Select all images with a\nbus\nClick verify once there are none left.'
+Jul 21 00:16:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:16:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:16:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:16:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:16:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:16:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:17:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:17:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:17:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:17:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bus'
+Jul 21 00:17:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:17:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bus' bike=False
+Jul 21 00:17:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bus'
+Jul 21 00:17:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:17:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:17:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:17:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:17:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:17:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:17:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bus' →[]
+Jul 21 00:17:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'bus' -> []
+Jul 21 00:17:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:17:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:17:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:17:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:17:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:17:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:17:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:17:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:17:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bus'
+Jul 21 00:17:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:17:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bus' bike=False
+Jul 21 00:17:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bus'
+Jul 21 00:17:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:17:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:17:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:18:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bus' →[]
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'bus' -> []
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'bus'
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='bus' — fail grid without verify
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:18:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:18:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:18:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:18:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bus' (raw='bus') grid=3x3 dynamic=True desc='Select all images with a\nbus\nClick verify once there are none left.'
+Jul 21 00:18:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:18:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[4, 5, 8] dets=4
+Jul 21 00:18:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus center-primary target='bus' -> [4, 5, 8]
+Jul 21 00:18:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bus' n=3 -> [4, 5, 8]
+Jul 21 00:18:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bus' hits=[4, 5, 8]
+Jul 21 00:18:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'bus' -> [4, 5, 8]
+Jul 21 00:18:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 21 00:18:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=1
+Jul 21 00:18:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[6]
+Jul 21 00:18:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus per-fallback target='bus' per=[6]
+Jul 21 00:18:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bus' n=3 -> [6]
+Jul 21 00:18:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bus' hits=[6]
+Jul 21 00:18:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'bus' -> [6]
+Jul 21 00:18:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:18:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:18:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:18:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:18:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:18:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:18:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:18:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:18:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:18:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bus'
+Jul 21 00:19:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:19:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bus' bike=False
+Jul 21 00:19:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bus'
+Jul 21 00:19:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:19:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:19:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:19:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:19:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:19:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:19:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bus' →[]
+Jul 21 00:19:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 0/9 tiles match 'bus' -> []
+Jul 21 00:19:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:19:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:19:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:19:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:19:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget mid image-chain
+Jul 21 00:19:37 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 7, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 273.4, 'wall': 273.6, 'token_len': 0}
+Jul 21 00:19:37 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:19:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:19:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:19:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='cars' (raw='cars') grid=3x3 dynamic=True desc='Select all images with\ncars\nClick verify once there are none left'
+Jul 21 00:19:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:19:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[6, 8] dets=6
+Jul 21 00:19:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[6]
+Jul 21 00:19:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[6, 8] per=[6] -> [6, 8]
+Jul 21 00:19:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [6, 8]
+Jul 21 00:19:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[6, 8]
+Jul 21 00:19:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 2/9 tiles match 'cars' -> [6, 8]
+Jul 21 00:19:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:20:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[6] dets=6
+Jul 21 00:20:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:20:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[6] per=[] -> [6]
+Jul 21 00:20:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [6]
+Jul 21 00:20:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[6]
+Jul 21 00:20:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'cars' -> [6]
+Jul 21 00:20:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:20:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[8] dets=8
+Jul 21 00:20:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[8]
+Jul 21 00:20:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[8] per=[8] -> [8]
+Jul 21 00:20:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [8]
+Jul 21 00:20:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[8]
+Jul 21 00:20:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 1/9 tiles match 'cars' -> [8]
+Jul 21 00:20:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:20:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=2
+Jul 21 00:20:41 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=2 hits=[4] expand=0.02
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> [4]
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> [4]
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [4]
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[4]
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 1/9 tiles match 'cars' -> [4]
+Jul 21 00:20:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:20:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[4] dets=1
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[4] per=[] -> [4]
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [4]
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[4]
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 5/6: 1/9 tiles match 'cars' -> [4]
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [4] x2 — defer to src-change
+Jul 21 00:20:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:21:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:21:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:21:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:21:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:21:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:21:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:21:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:21:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:21:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:21:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:21:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:21:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:21:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:21:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:21:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='5,8' -> [4, 7]
+Jul 21 00:21:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=dual-union-near+yolo-empty-keep-tiny-vl wholes=[[4, 7]] tiles=[] yolo=[] -> [4, 7]
+Jul 21 00:21:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 6/6: 2/9 tiles match 'cars' -> [4, 7]
+Jul 21 00:21:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:21:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:21:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:21:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:21:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:21:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:21:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=3x3 dynamic=True desc='Select all images with\ncrosswalks\nClick verify once there are none left.'
+Jul 21 00:21:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:21:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=1.000 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:21:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:21:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:21:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:21:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[] cv=[])
+Jul 21 00:21:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'crosswalks' -> []
+Jul 21 00:21:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=1.000 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:21:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[] cv=[])
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'crosswalks' -> []
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'crosswalks'
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='crosswalks' — fail grid without verify
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:21:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:22:04 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:22:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:22:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=3x3 dynamic=True desc='Select all images with\ncrosswalks\nClick verify once there are none left.'
+Jul 21 00:22:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:22:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[6] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.257, 0.0, 0.204]
+Jul 21 00:22:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk-heuristic hits=[6]
+Jul 21 00:22:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=[6]
+Jul 21 00:22:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='5,7,8' -> [4, 6, 7]
+Jul 21 00:22:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='5,7,8' -> [4, 6, 7]
+Jul 21 00:22:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [4, 6, 7] mode=vl∪cv vl=[4, 6, 7] cv=[6]
+Jul 21 00:22:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'crosswalks' -> [4, 6, 7]
+Jul 21 00:22:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 21 00:22:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[4] scores=[0.0, 0.0, 0.0, 0.0, 0.275, 0.0, 0.0, 0.0, 0.204]
+Jul 21 00:22:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk-heuristic hits=[4]
+Jul 21 00:22:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=[4]
+Jul 21 00:22:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='7,8,9' -> [6, 7, 8]
+Jul 21 00:22:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='7,8,9' -> [6, 7, 8]
+Jul 21 00:22:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [4, 6, 7, 8] mode=vl∪cv vl=[6, 7, 8] cv=[4]
+Jul 21 00:22:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 4/9 tiles match 'crosswalks' -> [4, 6, 7, 8]
+Jul 21 00:22:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 4/4 positives this round (tiles=9)
+Jul 21 00:22:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.249, 0.239]
+Jul 21 00:22:13 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:22:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='5,7' -> [4, 6]
+Jul 21 00:22:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='5,7' -> [4, 6]
+Jul 21 00:22:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [4, 6] mode=crosswalk-vl
+Jul 21 00:22:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 2/9 tiles match 'crosswalks' -> [4, 6]
+Jul 21 00:22:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:22:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.222, 0.0, 0.0, 0.249, 0.245]
+Jul 21 00:22:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:22:17 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='5,6' -> [4, 5]
+Jul 21 00:22:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='2,5,6,7,8' -> [1, 4, 5, 6, 7]
+Jul 21 00:22:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [4, 5] mode=crosswalk-vl
+Jul 21 00:22:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 2/9 tiles match 'crosswalks' -> [4, 5]
+Jul 21 00:22:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:22:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[4, 5] scores=[0.0, 0.0, 0.0, 0.0, 0.282, 0.258, 0.0, 0.249, 0.245]
+Jul 21 00:22:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk-heuristic hits=[4, 5]
+Jul 21 00:22:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=[4, 5]
+Jul 21 00:22:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='5' -> [4]
+Jul 21 00:22:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='5' -> [4]
+Jul 21 00:22:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [4, 5] mode=vl∪cv vl=[4] cv=[4, 5]
+Jul 21 00:22:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 5/6: 2/9 tiles match 'crosswalks' -> [4, 5]
+Jul 21 00:22:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [4, 5] x2 — defer to src-change
+Jul 21 00:22:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:22:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.249, 0.245]
+Jul 21 00:22:23 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:22:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='5,6' -> [4, 5]
+Jul 21 00:22:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='5,6' -> [4, 5]
+Jul 21 00:22:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [4, 5] mode=crosswalk-vl
+Jul 21 00:22:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 6/6: 2/9 tiles match 'crosswalks' -> [4, 5]
+Jul 21 00:22:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [4, 5] x3 — defer to src-change
+Jul 21 00:22:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:22:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:22:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:22:32 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:22:36 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 8, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 178.9, 'wall': 179.0, 'token_len': 0}
+Jul 21 00:22:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:22:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:22:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:22:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='bus' (raw='bus') grid=3x3 dynamic=True desc='Select all images with a\nbus\nClick verify once there are none left.'
+Jul 21 00:22:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:22:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[3, 4, 6] dets=4
+Jul 21 00:22:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus center-primary target='bus' -> [3, 4, 6]
+Jul 21 00:22:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'bus' n=3 -> [3, 4, 6]
+Jul 21 00:22:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bus' hits=[3, 4, 6]
+Jul 21 00:22:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'bus' -> [3, 4, 6]
+Jul 21 00:22:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 21 00:22:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:22:53 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:22:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:22:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:22:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[4] dets=1
+Jul 21 00:22:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus center-primary target='bus' -> [4]
+Jul 21 00:22:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[4] target='bus'
+Jul 21 00:22:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='bus' hits=[4]
+Jul 21 00:22:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'bus' -> [4]
+Jul 21 00:22:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:23:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:23:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:23:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:23:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:23:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:23:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:23:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:23:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:23:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='bus'
+Jul 21 00:23:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:23:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='bus' bike=False
+Jul 21 00:23:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='bus'
+Jul 21 00:23:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:23:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:23:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='bus' n=3 hits=[] dets=0
+Jul 21 00:23:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='bus' n=3 hits=[]
+Jul 21 00:23:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='bus' classes=['bus'] dets=0 hits=[] expand=0.02
+Jul 21 00:23:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 bus whole-hi-ov target='bus' whole=[]
+Jul 21 00:23:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'bus' →[]
+Jul 21 00:23:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 0/9 tiles match 'bus' -> []
+Jul 21 00:23:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:23:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:23:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:23:24 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:23:31 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:23:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:23:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=3x3 dynamic=True desc='Select all images with\ncrosswalks\nClick verify once there are none left.'
+Jul 21 00:23:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:23:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=1.000 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:23:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:23:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:23:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:23:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[] cv=[])
+Jul 21 00:23:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'crosswalks' -> []
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=1.000 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='none' -> []
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[] cv=[])
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'crosswalks' -> []
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'crosswalks'
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='crosswalks' — fail grid without verify
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:23:36 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:23:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:23:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:23:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=3x3 dynamic=True desc='Select all images with\ncrosswalks\nClick verify once there are none left.'
+Jul 21 00:23:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:23:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[2] scores=[0.0, 0.0, 0.282, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:23:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk-heuristic hits=[2]
+Jul 21 00:23:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=[2]
+Jul 21 00:23:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='3,7,8,9' -> [2, 6, 7, 8]
+Jul 21 00:23:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='3,7,8,9' -> [2, 6, 7, 8]
+Jul 21 00:23:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [2, 6, 7, 8] mode=vl∪cv vl=[2, 6, 7, 8] cv=[2]
+Jul 21 00:23:50 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 4/9 tiles match 'crosswalks' -> [2, 6, 7, 8]
+Jul 21 00:23:51 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 4/4 positives this round (tiles=9)
+Jul 21 00:23:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=1.000 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:23:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:23:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='1,2,3,4,5,6' -> [0, 1, 2, 3, 4, 5]
+Jul 21 00:23:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='1,2,3,4,5,6' -> [0, 1, 2, 3, 4, 5]
+Jul 21 00:23:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[] cv=[])
+Jul 21 00:23:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'crosswalks' -> []
+Jul 21 00:23:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:24:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:24:00 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 post-grid state gi=1 ok_streak=1 checked=False next_grid=True
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 2/10
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='crosswalks' (raw='crosswalks') grid=3x3 dynamic=True desc='Select all images with\ncrosswalks\nClick verify once there are none left.'
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=0.220 hits=[7] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.251, 0.0]
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk-heuristic hits=[7]
+Jul 21 00:24:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=[7]
+Jul 21 00:24:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='8' -> [7]
+Jul 21 00:24:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='8' -> [7]
+Jul 21 00:24:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final [7] mode=vl∪cv vl=[7] cv=[7]
+Jul 21 00:24:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 1/9 tiles match 'crosswalks' -> [7]
+Jul 21 00:24:02 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:24:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx crosswalk-v19 n=3 thr=1.000 hits=[] scores=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Jul 21 00:24:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk: VL path (no yolo-fastpath) heuristic=None
+Jul 21 00:24:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='1,2,3,4,5,6,7,8,9' -> [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Jul 21 00:24:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p1 raw='1,2,3,4,5,6,7,8,9' -> [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Jul 21 00:24:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision crosswalk final empty (vl=[] cv=[])
+Jul 21 00:24:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'crosswalks' -> []
+Jul 21 00:24:09 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:24:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:24:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 2 ok=False
+Jul 21 00:24:14 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:24:18 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 9, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 102.1, 'wall': 102.3, 'token_len': 0}
+Jul 21 00:24:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 free budget=240s attempts=3 (timeout_s=240 reserve=0 paid=False)
+Jul 21 00:24:22 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 1/3
+Jul 21 00:24:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:24:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='fire hydrant' (raw='a fire hydrant') grid=3x3 dynamic=True desc='Select all images with\na fire hydrant\nClick verify once there are none left.'
+Jul 21 00:24:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:24:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=2 hits=[2, 8] expand=0.10
+Jul 21 00:24:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:24:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[2, 8] per=[] -> [2, 8]
+Jul 21 00:24:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [2, 8]
+Jul 21 00:24:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[2, 8]
+Jul 21 00:24:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 2/9 tiles match 'fire hydrant' -> [2, 8]
+Jul 21 00:24:29 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:24:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=2 hits=[2, 8] expand=0.10
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[2, 8] per=[] -> [2, 8]
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [2, 8]
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[2, 8]
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 2/9 tiles match 'fire hydrant' -> [2, 8]
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [2, 8] x2 — defer to src-change
+Jul 21 00:24:39 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 2/2 positives this round (tiles=9)
+Jul 21 00:24:44 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=1 hits=[2] expand=0.10
+Jul 21 00:24:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:24:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[2] per=[] -> [2]
+Jul 21 00:24:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [2]
+Jul 21 00:24:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[2]
+Jul 21 00:24:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 1/9 tiles match 'fire hydrant' -> [2]
+Jul 21 00:24:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:24:55 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:24:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:24:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:25:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[2]
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[2] -> [2]
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[2] target='fire hydrant'
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[2]
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 4/6: 1/9 tiles match 'fire hydrant' -> [2]
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [2] x2 — defer to src-change
+Jul 21 00:25:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:25:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=1 hits=[2] expand=0.10
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[2] per=[] -> [2]
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'fire hydrant' n=3 -> [2]
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[2]
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 5/6: 1/9 tiles match 'fire hydrant' -> [2]
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v38 same positive indices [2] x3 — defer to src-change
+Jul 21 00:25:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:25:20 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:25:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:25:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:25:27 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='fire hydrant' classes=['fire hydrant'] dets=0 hits=[] expand=0.10
+Jul 21 00:25:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[]
+Jul 21 00:25:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 hydrant whole∪per target='fire hydrant' whole=[] per=[] -> []
+Jul 21 00:25:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='fire hydrant'
+Jul 21 00:25:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='fire hydrant' n=3 hits=[3]
+Jul 21 00:25:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry lowconf-per →[3] target='fire hydrant'
+Jul 21 00:25:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='fire hydrant' hits=[3]
+Jul 21 00:25:33 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 6/6: 1/9 tiles match 'fire hydrant' -> [3]
+Jul 21 00:25:34 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:25:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision post-verify error banner — attempt likely rejected
+Jul 21 00:25:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:25:43 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:25:49 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 2/3
+Jul 21 00:25:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:25:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='cars' (raw='cars') grid=3x3 dynamic=True desc='Select all images with\ncars\nClick verify once there are none left'
+Jul 21 00:25:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:25:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:25:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:25:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:25:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:25:56 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:25:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:26:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:26:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:26:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:26:01 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:26:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:26:05 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:26:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:26:06 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:26:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:26:10 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:26:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:26:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:26:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'cars' →[]
+Jul 21 00:26:11 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 0/9 tiles match 'cars' -> []
+Jul 21 00:26:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:26:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:26:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:26:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:26:18 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:26:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:26:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:26:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:26:21 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:26:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:26:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:26:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:26:25 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:26:26 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'cars' →[]
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 0/9 tiles match 'cars' -> []
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision no tiles matched 'cars'
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision empty non-skip target='cars' — fail grid without verify
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=False
+Jul 21 00:26:30 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image grid failed — break chain, new attempt
+Jul 21 00:26:40 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 attempt 3/3
+Jul 21 00:26:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v2 image grid chain 1/10
+Jul 21 00:26:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision image challenge v35: target='cars' (raw='cars') grid=3x3 dynamic=True desc='Select all images with\ncars\nClick verify once there are none left'
+Jul 21 00:26:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed dynamic cap=6
+Jul 21 00:26:42 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[0, 4] dets=8
+Jul 21 00:26:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[3, 4]
+Jul 21 00:26:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[0, 4] per=[3, 4] -> [0, 3, 4]
+Jul 21 00:26:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [0, 3, 4]
+Jul 21 00:26:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[0, 3, 4]
+Jul 21 00:26:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 1/6: 3/9 tiles match 'cars' -> [0, 3, 4]
+Jul 21 00:26:46 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 3/3 positives this round (tiles=9)
+Jul 21 00:26:48 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=2
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=2 hits=[3] expand=0.02
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> [3]
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> [3]
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-hits 'cars' n=3 -> [3]
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-fastpath skip VL target='cars' hits=[3]
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 2/6: 1/9 tiles match 'cars' -> [3]
+Jul 21 00:26:52 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision clicked 1/1 positives this round (tiles=9)
+Jul 21 00:26:54 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:26:57 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:26:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:26:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:26:58 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:26:59 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:27:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:27:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:27:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:27:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:27:03 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-retry empty→[] target='cars'
+Jul 21 00:27:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:27:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35speed vehicle-empty hard-cap VL target='cars' bike=False
+Jul 21 00:27:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision yolo-empty vehicle → cheap 1-pass VL target='cars'
+Jul 21 00:27:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision whole-grid p0 raw='none' -> []
+Jul 21 00:27:07 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision hybrid mode=yolo+vl-empty wholes=[[]] tiles=[] yolo=[] -> []
+Jul 21 00:27:08 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-center-only target='cars' n=3 hits=[] dets=0
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-per-cell target='cars' n=3 hits=[]
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo target='cars' classes=['car'] dets=0 hits=[] expand=0.02
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx v37 car whole fallback center/per empty -> []
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.yolo_onnx yolo-combined 3x3 car/bike/moto target='cars' center=[] per=[] -> []
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision v35 second-chance YOLO-only 'cars' →[]
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision round 3/6: 0/9 tiles match 'cars' -> []
+Jul 21 00:27:12 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision dynamic empty after prior clicks — treat as none-left
+Jul 21 00:27:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.vision challenge table gone after verify — likely ok
+Jul 21 00:27:15 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner image-solve grid 1 ok=True
+Jul 21 00:27:16 VM-0-3-ubuntu xvfb-run[132624]: INFO engines.rc.runner v36 token harvested sink=dom:#g-recaptcha-response len=2126 poll=1/1
+Jul 21 00:27:16 VM-0-3-ubuntu xvfb-run[132624]: RUN {'i': 10, 'win': True, 'method': 'image', 'error': None, 'elapsed': 177.4, 'wall': 177.5, 'token_len': 2126}
+Jul 21 00:27:16 VM-0-3-ubuntu xvfb-run[132624]: SUMMARY {'tag': 'v36rate', 'wins': 2, 'n': 10, 'rate': 0.2, 'timeout_s': 240, 'attempts': 3, 'rows': [{'i': 1, 'win': False, 'method': None, 'error': 'free budget exhausted after 1 attempts', 'elapsed': 301.0, 'wall': 301.4, 'token_len': 0}, {'i': 2, 'win': False, 'method': None, 'error': 'free budget exhausted after 1 attempts', 'elapsed': 328.2, 'wall': 328.7, 'token_len': 0}, {'i': 3, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 247.4, 'wall': 247.6, 'token_len': 0}, {'i': 4, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 281.6, 'wall': 281.8, 'token_len': 0}, {'i': 5, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 254.8, 'wall': 255.0, 'token_len': 0}, {'i': 6, 'win': True, 'method': 'image', 'error': None, 'elapsed': 112.2, 'wall': 112.5, 'token_len': 2148}, {'i': 7, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 273.4, 'wall': 273.6, 'token_len': 0}, {'i': 8, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 178.9, 'wall': 179.0, 'token_len': 0}, {'i': 9, 'win': False, 'method': None, 'error': 'failed after 3 attempts', 'elapsed': 102.1, 'wall': 102.3, 'token_len': 0}, {'i': 10, 'win': True, 'method': 'image', 'error': None, 'elapsed': 177.4, 'wall': 177.5, 'token_len': 2126}]}
+Jul 21 00:27:17 VM-0-3-ubuntu systemd[3333928]: rc-v36rate-n10.service: Consumed 30min 30.918s CPU time, 774.3M memory peak, 0B memory swap peak.

@@ -1,0 +1,27 @@
+# Declarative manifest for reproducibility. These already live in the project venv
+# (run.sh sources it); this file documents the runtime deps, it is not auto-installed.
+fastapi
+uvicorn
+pydantic
+cloakbrowser
+pillow
+# Free local OCR cascade (image_text / math / slider)
+ddddocr
+ppllocr
+pytesseract
+# aliyun solver gap detector: YOLOv8n ONNX (thread-limited to 2 cores) with a cv2
+# fallback. opencv-python-headless (not the GUI build — no libGL on servers).
+onnxruntime
+opencv-python-headless
+numpy
+# Slider cascade tier-2 (optional): YOLO gap detector. Lazy-imported; cascade
+# still works via ddddocr + Canny if this is missing.
+captcha-recognizer
+# Geetest v4 pure-HTTP protocol (type=geetest) — vendored Geetest v4 protocol client (MIT, see engines/gt/LICENSE.GeekedTest)
+curl_cffi
+pycryptodome
+# Note: whisper/curl are NOT required — the audio-challenge path was removed
+# (it was dead code and reliably IP-blocked). reCAPTCHA/hCaptcha image challenges
+# use the Mistral vision key pool (stdlib urllib, no extra dep). Optional paid
+# fallback (2captcha/YesCaptcha) is also stdlib-only.
+requests

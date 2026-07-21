@@ -1,0 +1,32 @@
+[Unit]
+Description=CSM captcha API (free-first multi-vendor solver)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/captcha-build/captcha-solver
+Environment=SOLVER_ALLOW_PRIVATE=1
+Environment=TURNSTILE_HEADLESS=0
+Environment=RECAPTCHA_HEADLESS=0
+Environment=SOLVER_PROXY_ROTATE=1
+Environment=SOLVER_PROXY_FILE=/home/ubuntu/cf-factory/proxies.txt
+# Optional paid safety net (uncomment + fill to enable):
+# Environment=TWOCAPTCHA_API_KEY=
+# Environment=YESCAPTCHA_API_KEY=
+# Optional free vision LLM for hCaptcha image grids:
+# Environment=VISION_ENDPOINT=https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions
+# Environment=VISION_MODEL=qwen-vl-plus
+# Environment=MISTRAL_KEYFILE=/home/ubuntu/captcha-build/captcha-solver/csm/apikey.txt
+EnvironmentFile=-/home/ubuntu/captcha-build/captcha-solver/.env
+ExecStart=/home/ubuntu/captcha-build/captcha-solver/start.sh
+Restart=on-failure
+RestartSec=5
+# Browser work needs RAM headroom; soft limit keeps the box from OOM-killing Hermes-less.
+MemoryMax=1500M
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

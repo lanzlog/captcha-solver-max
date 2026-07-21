@@ -1,0 +1,100 @@
+{
+  "tag": "v41bus",
+  "wins": 0,
+  "n": 10,
+  "rate": 0.0,
+  "timeout_s": 240,
+  "attempts": 3,
+  "rows": [
+    {
+      "i": 1,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 207.8,
+      "wall": 208.0,
+      "token_len": 0
+    },
+    {
+      "i": 2,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 169.8,
+      "wall": 169.9,
+      "token_len": 0
+    },
+    {
+      "i": 3,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 204.7,
+      "wall": 204.8,
+      "token_len": 0
+    },
+    {
+      "i": 4,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 251.9,
+      "wall": 252.0,
+      "token_len": 0
+    },
+    {
+      "i": 5,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 266.2,
+      "wall": 266.3,
+      "token_len": 0
+    },
+    {
+      "i": 6,
+      "win": false,
+      "method": null,
+      "error": "free budget exhausted after 2 attempts",
+      "elapsed": 240.7,
+      "wall": 240.9,
+      "token_len": 0
+    },
+    {
+      "i": 7,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 247.1,
+      "wall": 247.2,
+      "token_len": 0
+    },
+    {
+      "i": 8,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 90.0,
+      "wall": 90.1,
+      "token_len": 0
+    },
+    {
+      "i": 9,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 252.1,
+      "wall": 252.3,
+      "token_len": 0
+    },
+    {
+      "i": 10,
+      "win": false,
+      "method": null,
+      "error": "failed after 3 attempts",
+      "elapsed": 231.3,
+      "wall": 231.5,
+      "token_len": 0
+    }
+  ]
+}

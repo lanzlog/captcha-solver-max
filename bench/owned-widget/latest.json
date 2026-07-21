@@ -1,0 +1,14 @@
+{
+  "ts": 1784372864.5339465,
+  "elapsed_s": 7.33,
+  "http_error": null,
+  "solved": true,
+  "token_len": 816,
+  "method": "explicit",
+  "usage": "portable",
+  "portable": true,
+  "siteverify_success": true,
+  "hostname": "ilalangliar.xyz",
+  "error_codes": [],
+  "secret_path": "/home/ubuntu/.config/hermes/turnstile/csm-portable-sim.secret"
+}
